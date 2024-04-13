@@ -8,7 +8,7 @@
 </head>
 <body>
    <header>
-    <h1>Tech Blog</h1>
+    <h1>Contact Us</h1>
    </header>
    <nav>
     <ul>
@@ -17,7 +17,32 @@
         <li><a href="#">Contact</a></li>
     </ul>
    </nav>
-   <main></main>
+   <main>
+        <form action="" method="post">
+            <div>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone_number">Phone Number:</label>
+                <input type="tel" id="phone_number" name="phone_number">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Send</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+
+   </main>
    <footer>
     <span>&copy;</span>
     <span>Copyright 2024 All rights reserved</span>
